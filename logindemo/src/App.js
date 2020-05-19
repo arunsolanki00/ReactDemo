@@ -1,12 +1,22 @@
 import React, {Component} from 'react';
-// import './index.css';
+import'bootstrap/dist/css/bootstrap.css';
+import'bootstrap/dist/css/bootstrap-theme.css';
+
 import GoogleLogin from './components/GoogleLogin';
+import InputsControl from './components/InputControl/InputsControl';
+import FormPage from './components/InputControl/FormPage';
+
+
 function App() {
     return (
       <div className="App">
-          <GoogleLogin />
+          {/* <div className="container"> */}
+          {/* <GoogleLogin /> */}
+            {/* <FormPage /> */}
+          <InputsControl/>
+          {/* </div> */}
       </div>
-          );
+        );
     }
 
 export default App;
