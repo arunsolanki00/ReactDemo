@@ -5,16 +5,18 @@ import'bootstrap/dist/css/bootstrap-theme.css';
 import GoogleLogin from './components/GoogleLogin';
 import InputsControl from './components/InputControl/InputsControl';
 import FormPage from './components/InputControl/FormPage';
+import InputsControlFunctional from './components/InputControl/InputsControlFunctional';
 
 
 function App() {
     return (
       <div className="App">
-          {/* <div className="container"> */}
+          
           {/* <GoogleLogin /> */}
             {/* <FormPage /> */}
-          <InputsControl/>
-          {/* </div> */}
+          {/* <InputsControl/> */}
+          
+          <InputsControlFunctional />
       </div>
         );
     }

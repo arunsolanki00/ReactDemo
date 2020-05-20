@@ -1,5 +1,6 @@
 import { SplitButton, MenuItem } from 'react-bootstrap';
 import React, { Component } from 'react';
+
 import { Form, Button, FormGroup, FormControl, ControlLabe, Col } from "react-bootstrap";
 import './inputControl.css';
 
